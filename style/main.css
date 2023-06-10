@@ -20,7 +20,53 @@
     padding: 0;
     margin: 0;
 }
+
 body{
     font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--bg-color);
 }
+
+/* start header styling  */
+header{
+    width: 100%;
+    position: relative;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+header .header-bg{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-bg img{
+    width: 100%;
+    height: 100%;
+}
+
+header .header-contents{
+    z-index: 9;
+    position: relative;
+}
+
+.header-contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-contents .theme-switch{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.theme-switch .switch{
+    padding: 0 10px;
+}
+/* end header styling  */
+
+
+
