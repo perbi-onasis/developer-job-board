@@ -122,8 +122,8 @@ header .header-contents{
 
 .search-container .fulltime-search button{
     padding: 0 10px;
-    height: 40px;
-    width: 7rem;
+    height: 3rem;
+    width: 7.4rem;
     border-radius: 5px;
     font-weight: 600;
     background-color: var(--pri-main-color);
@@ -131,8 +131,13 @@ header .header-contents{
     outline: none;
     cursor: pointer;
     color: var(--sec-white-color);
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
     margin-left: 1rem;
+    font-size: var(--body-font);
+}
+
+.search-container .fulltime-search button:hover{
+    background-color: var(--pri-sec-color);
 }
 
 /* .line{
