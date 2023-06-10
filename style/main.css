@@ -187,6 +187,20 @@ header .header-contents{
     margin: 4px 19px;
 }
 
-.job-tile .first-layer
+.job-tile .second-layer .job-title{
+    color: var(--pri-dark-color);
+    font-size: var(--imp-font);
+    margin-bottom: 0.7rem;
+}
+
+.job-tile .second-layer .company-name{
+    color: var(--sec-dark-gray-color);
+    margin-bottom: 2.5rem;
+}
+
+.job-tile .third-layer .company-location{
+    color: var(--pri-main-color);
+    font-size: var(--body-font);
+}
 /* end job board container styling  */
 
