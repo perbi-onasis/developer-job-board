@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700&family=Pacifico&display=swap');
+
+:root{
+    --pri-main-color: #5964E0;
+    --pri-sec-color: #939BF4;
+    --pri-midnight-color: #121721;
+    --pri-dark-color: #19202D;
+    --sec-white-color: #fff;
+    --sec-lt-gray-color: #F4F6F8;
+    --sec-gray-color: #9DAEC2;
+    --sec-dark-gray-color: #6E8098;
+    --bg-color: #F2F2F2;
+    --body-font: 16px;
+    --imp-font: 20px;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--bg-color);
+}
