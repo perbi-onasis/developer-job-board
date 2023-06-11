@@ -155,16 +155,18 @@ header .header-contents{
     position: relative;
     top: 13rem;
     margin: 0rem 8%;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 2.9rem 0rem;
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(auto-fit, 17rem);
+    /* gap: 1rem; */
+    justify-content: center;
+    gap: 2.9rem 1rem;
 }
 
 /* start single job tile styling  */
 .job-tile{
     background-color: var(--sec-white-color);
-    width: 32%;
+    /* width: 32%; */
     height: 228px;
     padding: 45px 35px 35px;
     border-radius: 5px;
